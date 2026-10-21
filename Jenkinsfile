@@ -40,7 +40,7 @@ pipeline {
             steps {
                 
                 // Automatically updates the image tag in deployment.yaml to match the current BUILD_NUMBER
-                sh "sed -i 's|image:.*|image: ${FULL_IMAGE_NAME}|' k8s/deployment.yaml"
+                sh "sed -i 's|image:.*|image: ${FULL_IMAGE_NAME}|' k8s/deployment.yml"
                 
                 sh "kubectl apply -f k8s/deployment.yml -n ${K8S_NAMESPACE}"
                 sh "kubectl apply -f k8s/service.yaml -n ${K8S_NAMESPACE}"
