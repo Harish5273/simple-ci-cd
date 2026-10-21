@@ -38,7 +38,6 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh "kubectl create namespace ${K8S_NAMESPACE} --dry-run=client -o yaml | kubectl apply -f -"
                 
                 // Automatically updates the image tag in deployment.yaml to match the current BUILD_NUMBER
                 sh "sed -i 's|image:.*|image: ${FULL_IMAGE_NAME}|' k8s/deployment.yaml"
