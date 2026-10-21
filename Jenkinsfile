@@ -5,7 +5,7 @@ pipeline {
         DOCKER_HUB_USERNAME = 'harish5273'
         IMAGE_NAME          = 'simple-webpage'
         IMAGE_TAG           = "${BUILD_NUMBER}"
-        DOCKER_CRED_ID      = 'docker-hub-credentials'
+        DOCKER_CRED_ID      = 'dockerhub-creds'
         K8S_NAMESPACE       = 'simple-webapp'
         DEPLOYMENT_NAME     = 'simple-webapp'
         FULL_IMAGE_NAME     = "${DOCKER_HUB_USERNAME}/${IMAGE_NAME}:${IMAGE_TAG}"
