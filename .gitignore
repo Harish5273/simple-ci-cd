@@ -1,0 +1,36 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local logs and temporary files (Crucial for your setup!)
+monarch-logs/
+*.log
+tmp/
+
+# Environment variables and secrets (Never commit these!)
+.env
+.env.local
+*.pem
+*.key
+kubeconfig
+config.yaml
+
+# Build artifacts (in case you expand the project later)
+node_modules/
+dist/
+build/
+
+
+cloudflared.deb
