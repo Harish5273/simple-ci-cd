@@ -1,0 +1,238 @@
+[
+    {
+        "Id": "59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e",
+        "Created": "2026-10-21T10:46:28.522161515Z",
+        "Path": "/usr/local/bin/entrypoint",
+        "Args": [
+            "/sbin/init"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 255,
+            "Error": "",
+            "StartedAt": "2026-10-21T10:46:34.750928345Z",
+            "FinishedAt": "2026-10-21T10:46:35.398516244Z"
+        },
+        "Image": "sha256:152b34afd8a2de5c8348a264426bc99b71058ee0e1a15eab9b30849605e4752d",
+        "ResolvConfPath": "/var/lib/docker/containers/59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e/hostname",
+        "HostsPath": "/var/lib/docker/containers/59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e/hosts",
+        "LogPath": "/var/lib/docker/containers/59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e/59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e-json.log",
+        "Name": "/monarch-control-plane",
+        "RestartCount": 1,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "unconfined",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/lib/modules:/lib/modules:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "kind",
+            "PortBindings": {
+                "6443/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "40707"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "on-failure",
+                "MaximumRetryCount": 1
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "seccomp=unconfined",
+                "apparmor=unconfined",
+                "label=disable"
+            ],
+            "Tmpfs": {
+                "/run": "",
+                "/tmp": ""
+            },
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": null,
+            "ReadonlyPaths": null,
+            "Init": false
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "59aeb280715975e828a40dfc8383e0576706a3878485b15025c4bbfd5efaba9e",
+                "LowerDir": "/var/lib/docker/overlay2/8d7252ae1f5354d99c7babf5dc02c88820ff08d7f01bdeaa25771f156ac6424f-init/diff:/var/lib/docker/overlay2/6ab688aef486211aeb73a6586035ae2b4faa7197fa93296b7f55705ff454bc8f/diff:/var/lib/docker/overlay2/d70647f61a98a6e988e92576b035dd6a5617a16ab10118c9c8e5727a073e10ad/diff",
+                "MergedDir": "/var/lib/docker/overlay2/8d7252ae1f5354d99c7babf5dc02c88820ff08d7f01bdeaa25771f156ac6424f/merged",
+                "UpperDir": "/var/lib/docker/overlay2/8d7252ae1f5354d99c7babf5dc02c88820ff08d7f01bdeaa25771f156ac6424f/diff",
+                "WorkDir": "/var/lib/docker/overlay2/8d7252ae1f5354d99c7babf5dc02c88820ff08d7f01bdeaa25771f156ac6424f/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/lib/modules",
+                "Destination": "/lib/modules",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "51eab91b264c1c361b387387c39b947615ae5fe0673e24dc6a78a34e45053041",
+                "Source": "/var/lib/docker/volumes/51eab91b264c1c361b387387c39b947615ae5fe0673e24dc6a78a34e45053041/_data",
+                "Destination": "/var",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "monarch-control-plane",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "6443/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "KIND_EXPERIMENTAL_CONTAINERD_SNAPSHOTTER",
+                "KUBECONFIG=/etc/kubernetes/admin.conf",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "container=docker",
+                "HTTP_PROXY=",
+                "HTTPS_PROXY=",
+                "NO_PROXY="
+            ],
+            "Cmd": null,
+            "Image": "kindest/node:v1.36.1@sha256:3489c7674813ba5d8b1a9977baea8a6e553784dab7b84759d1014dbd78f7ebd5",
+            "Volumes": {
+                "/var": {}
+            },
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/usr/local/bin/entrypoint",
+                "/sbin/init"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "io.x-k8s.kind.cluster": "monarch",
+                "io.x-k8s.kind.role": "control-plane"
+            },
+            "StopSignal": "SIGRTMIN+3"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "",
+            "SandboxKey": "",
+            "Ports": {},
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "kind": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "358c6de398baff6c91fd1520e0c8fc35a5d1d4428e0c5d32d395346205b4fd51",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "monarch-control-plane",
+                        "59aeb2807159"
+                    ]
+                }
+            }
+        }
+    }
+]
