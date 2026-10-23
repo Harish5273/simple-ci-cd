@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: harish5273/simple-webpage:latest
+          image: harish5273/simple-webpage:1
           
           ports:
             - containerPort: 80
